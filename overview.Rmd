@@ -1,0 +1,32 @@
+---
+title: "Project Overview"
+output:
+  distill::distill_article:
+    toc: true
+---
+
+# ATLAS Project Overview
+
+Welcome to the **ATLAS** project website.
+
+ATLAS (Analysis of Traits in Homegardens and Links to Agroecosystem Services) is a scientific initiative focused on understanding the functional diversity of tropical homegardens and their contribution to sustainable and resilient food systems.
+
+## What are Homegardens?
+
+Homegardens are diverse, multifunctional agroecosystems found throughout the tropics. They combine food crops, fruit trees, medicinal plants, and livestock within compact spaces, providing food security, income, and ecosystem services to millions of households.
+
+## Project Objectives
+
+- Build a global database of plant species traits in homegardens  
+- Analyze functional trait links to ecosystem services such as carbon sequestration and water regulation  
+- Conduct meta-analyses and systematic reviews to synthesize current knowledge  
+- Develop tools and guidelines to support agroecological management and policy  
+
+## Get Involved
+
+Explore our resources, protocols, and data tools through the website menus.  
+For inquiries, please visit the **Contact** page.
+
+---
+
+*This website is built with the R package [`distill`](https://rstudio.github.io/distill/).*

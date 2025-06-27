@@ -1,0 +1,52 @@
+---
+title: "ATLAS"
+description: "Unlocking the Functional Diversity of Homegardens"
+output: distill::distill_article
+theme: theme.css  # si tu veux un thème personnalisé
+---
+
+![](img/banner.png)
+
+Website of the research initiative ***ATLAS – Unlocking the Functional Diversity of Homegardens***,\
+led by **CIRAD** in collaboration with international partners including the University of Toronto, CEFE-CNRS, CGIAR, and others.
+
+------------------------------------------------------------------------
+
+**ATLAS** (Analysis of Traits in Homegardens and Links to Agroecosystem Services) explores the role of plant functional diversity in tropical homegardens and its contribution to resilient and sustainable food systems.
+
+These homegardens — complex, multifunctional agroecosystems combining crops, trees, and livestock — are widespread across the tropics. They provide food, income, and essential ecosystem services to millions of rural households. Despite their importance, the **functional roles of plants in these systems remain poorly understood**.
+
+## Scientific Focus
+
+ATLAS investigates how the **functional traits** of plant species — such as leaf structure, nutrient content, or growth form — influence key ecosystem functions, including:
+
+-   Carbon sequestration\
+-   Water regulation\
+-   Nutritional value\
+-   Agroecosystem resilience
+
+By applying tools from **functional ecology**, **trait-based analysis**, and **data science**, the project aims to generate new insights into the ecological functioning of homegardens.
+
+## Objectives
+
+ATLAS aims to:
+
+-   Build a global, open-access **database** of species and plant traits in tropical homegardens\
+-   Compare functional composition across homegardens, agricultural systems, and forest contexts\
+-   Link plant traits to measurable **ecosystem services**\
+-   Support **evidence-based agroecological transitions** and inform biodiversity and climate policies
+
+## Project Team
+
+The ATLAS project involves researchers from:
+
+-   **CIRAD** (France)\
+-   **University of Toronto** (Canada)\
+-   **CEFE - CNRS** (France)\
+-   **CGIAR / Bioversity International**\
+-   **San Diego Botanic Garden**\
+-   ...and other global partners
+
+------------------------------------------------------------------------
+
+This website is built using the R package [`distill`](https://rstudio.g)

@@ -1,0 +1,102 @@
+
+---
+title: "Resources"
+description: "Key literature and tools for the study of functional diversity in tropical homegardens"
+output: 
+  distill::distill_article:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<br/>
+
+## Resources for Functional Trait and Homegarden Research
+
+This page gathers essential references, tools, and databases relevant to the study of **functional diversity in tropical homegardens**, trait-based ecology, and ecosystem services — core themes of the ATLAS project.
+
+---
+
+### 📌 Planning & Question Formulation in Agroecology and Homegarden Studies
+
+- Foo YZ _et al._ (2021) A practical guide to question formation, systematic searching and study screening for literature reviews in ecology and evolution. _Methods in Ecology and Evolution_, [doi](https://doi.org/10.1111/2041-210X.13654)
+
+- Haddaway NR & Westgate MJ (2018) Predicting the time needed for environmental systematic reviews and maps. _Conservation Biology_, [doi](https://doi.org/10.1111/cobi.13231)
+
+- Haddaway NR _et al._ (2020) Eight problems with literature reviews and how to fix them. _Nature Ecology & Evolution_, [doi](https://doi.org/10.1038/s41559-020-01295-x)
+
+- Livoreil B _et al._ (2017) Systematic searching for environmental evidence using multiple tools and sources. _Environmental Evidence_, [doi](https://doi.org/10.1186/s13750-017-0099-6)
+
+- Navarro C _et al._ (2020) _Méthodes d’expertise : comment les utiliser ?_ Paris : FRB, [guide](https://www.fondationbiodiversite.fr/guide-des-methodes-dexpertise/)
+
+---
+
+### 🔎 Databases & Search Engines
+
+- Haddaway NR _et al._ (2015) The role of Google Scholar in evidence reviews and its applicability to grey literature. _PLOS One_, [doi](https://doi.org/10.1371/journal.pone.0138237)
+
+---
+
+### 🗺️ Systematic Mapping & Evidence Synthesis for Homegarden and Agroecosystem Studies
+
+- Haddaway NR _et al._ (2016) The benefits of systematic mapping to evidence-based environmental management. _Ambio_, [doi](https://doi.org/10.1007/s13280-016-0773-x)
+
+- James KL, Randall NP & Haddaway NR (2016) A methodology for systematic mapping in environmental sciences. _Environmental Evidence_, [doi](https://doi.org/10.1186/s13750-016-0059-6)
+
+---
+
+### 🧠 Critical Appraisal & Systematic Reviewing in Ecology
+
+- Sordello R _et al._ (2019) Les protocoles expérimentaux en écologie : principaux points clefs. UMS PatrNat, [PDF](https://www.patrinat.fr/fr/actualites/publication-dun-rapport-de-lums-sur-les-protocoles-experimentaux-6445)
+
+- CEE Critical Appraisal Tool — [Link](https://environmentalevidence.org/cee-critical-appraisal-tool/)
+
+---
+
+### 📊 Meta-Analysis & Quantitative Evidence Synthesis for Trait-based Studies
+
+- Borenstein M _et al._ (2009) _Introduction to Meta-Analysis_, [doi](https://doi.org/10.1002/9780470743386)
+
+- Koricheva J, Gurevitch J & Mengersen K (2013) _Handbook of Meta-analysis in Ecology and Evolution_. Princeton UP, [JSTOR](https://www.jstor.org/stable/j.ctt24hq6n)
+
+- Nakagawa S _et al._ (2023) Quantitative evidence synthesis: A practical guide. _Environmental Evidence_, [doi](https://doi.org/10.1186/s13750-023-00301-6)
+
+---
+
+### 🌿 Functional Trait Databases Relevant to Homegardens
+
+- TRY Plant Trait Database — <https://www.try-db.org>  
+- BIEN Database (Botanical Information and Ecology Network) — <https://bien.nceas.ucsb.edu/bien/>  
+- GIFT (Global Inventory of Floras and Traits) — <https://gift.uni-goettingen.de>  
+- LEDA Traitbase — <https://uol.de/en/landeco/research/leda>  
+
+These databases provide extensive plant trait information useful for assessing functional diversity in tropical agroecosystems and homegardens.
+
+---
+
+### 📦 R Packages for Evidence Synthesis and Trait Analysis
+
+- Lajeunesse MJ (2016) `metagear` – Facilitating systematic reviews and meta-analysis. _Methods in Ecology & Evolution_, [doi](https://doi.org/10.1111/2041-210X.12472)
+
+- Viechtbauer W (2010) `metafor` – Conducting meta-analyses in R. _JSS_, [doi](https://doi.org/10.18637/jss.v036.i03)
+
+- Westgate MJ (2019) `revtools` – Article screening in R. _Research Synthesis Methods_, [doi](http://doi.org/10.1002/jrsm.1374)
+
+- Pick JL _et al._ (2019) `metaDigitise` – Flexible data extraction from figures. _Methods in Ecology & Evolution_, [doi](https://doi.org/10.1111/2041-210X.13118)
+
+- Grames EM _et al._ (2019) Keyword co-occurrence networks for systematic search term identification. _Methods in Ecology & Evolution_, [doi](https://doi.org/10.1111/2041-210X.13268)
+
+---
+
+### 🌐 Useful Websites
+
+- [`metafor` Project](https://www.metafor-project.org/doku.php/metafor)  
+- [Doing Meta-Analysis in R (Bookdown)](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/)
+
+---
+
+### 📚 Essential Reading for Evidence Synthesis in Agroecology
+
+- Pullin AS _et al._ (2022) Standards of conduct and reporting in evidence syntheses that inform environmental policy. _Environmental Evidence_, [doi](https://doi.org/10.1186/s13750-022-00269-9)

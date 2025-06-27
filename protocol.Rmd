@@ -1,0 +1,59 @@
+---
+title: "Project Protocol"
+output:
+  distill::distill_article:
+    toc: true
+---
+
+# Introduction
+
+Homegardens are traditional agroecosystems widely distributed across tropical and subtropical regions. Characterized by their structural complexity and high species diversity, these multifunctional systems integrate food crops, fruit trees, medicinal plants, and livestock within household compounds. They provide vital ecosystem services including food security, nutrition, biodiversity conservation, and microclimate regulation.
+
+Despite their importance, systematic quantitative analyses of species composition and functional diversity in homegardens remain limited. The ATLAS project aims to fill this gap by synthesizing data from diverse geographic regions to understand the ecological functioning and resilience of these agroecosystems.
+
+# Methods
+
+## Literature search and eligibility criteria
+
+A systematic literature review was conducted following recognized protocols in evidence synthesis. The search was performed on June 2, 2025, in the Web of Science Core Collection using the following query:
+
+\`\`\`
+("home garden" OR homegarden OR homestead* OR "household garden*") AND (species OR "species richness" OR "plant diversity" OR biodiversity OR "floristic composition")
+\`\`\`
+
+This search retrieved 2,437 records. Additional relevant studies were identified through manual screening of reference lists.
+
+Studies were included if they:
+
+- Explicitly focused on homegardens as study systems;  
+- Reported data from multiple homegardens (excluding single-case studies);  
+- Recorded plant species through field sampling or botanical inventories.  
+
+Conceptual papers, reviews, and studies without direct species observations were excluded.
+
+## Screening and inclusion process
+
+Title and abstract screening was performed using the semi-automated platform Abstrackr, which applies active learning to prioritize relevant studies. Screening stopped upon reaching saturation, defined as 100 consecutive abstracts without further inclusion, after screening 1,540 abstracts. The final corpus comprised 300 studies.
+
+## Data extraction and standardization
+
+For each included study, the following data were extracted manually:
+
+- Study title, country, region (if available), publication year;  
+- Number of plant species recorded;  
+- Number of homegardens sampled;  
+- Diversity indices and explanatory variables when available.  
+
+Geographic names were standardized using the \`countrycode\` R package.
+
+Species richness was defined as the total number of species observed across sampled homegardens. Explanatory variables were coded where studies linked diversity to land use, management, or environmental gradients.
+
+## Statistical analyses and visualization
+
+All analyses were conducted in R (version 4.4.0). Geographic distributions were mapped with \`rnaturalearth\` and \`sf\`, including choropleth maps displaying study counts and average species richness per country. Species richness classes were grouped into quartiles for interpretability.
+
+Temporal trends in publication and taxonomic focus were summarized descriptively. Visualizations were created using \`ggplot2\`. All scripts and data are available in the project repository.
+
+---
+
+*For more information or questions about the protocol, please contact the ATLAS project team.*

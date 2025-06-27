@@ -1,0 +1,38 @@
+name: "atlas"
+title: "ATLAS - Unlocking Functional Diversity in Homegardens"
+description: |
+  Unlocking the Functional Diversity of Homegardens through meta-analyses and systematic reviews.
+base_url: https://atlas-project.github.io
+repository_url: https://github.com/atlas-project/atlas-project.github.io
+creative_commons: CC BY
+favicon: img/ATLAS.
+output_dir: "."
+navbar:
+  logo:
+    image: img/ATLAS.jpg
+    href: https://atlas-project.github.io
+  source_url: true
+  right:
+    - icon: fa fa-home
+      href: index.html
+    - text: "Project Overview"
+      href: overview.html
+    - text: "Protocol & Methods"
+      menu:
+        - text: "Project Protocol"
+          href: protocol.html
+    - text: "Data & Tools"
+      menu:
+        - text: "Trait Databases"
+          href: https://www.try-db.org
+        - text: "ATLAS Database"
+          href: atlas_database.html
+        - text: "R Setup & Scripts"
+          href: https://github.com/atlas-project/atlas-rsetup
+    - text: "Resources"
+      href: resources.html
+    - text: "Contact"
+      href: contact.html
+output:
+  distill::distill_article:
+    css: css/theme.css

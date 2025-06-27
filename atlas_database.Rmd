@@ -1,0 +1,22 @@
+---
+title: "ATLAS Database"
+output:
+  distill::distill_article:
+    toc: true
+---
+
+# ATLAS Database
+
+We are currently compiling a large open database by requesting authors of tropical homegarden field studies to share their species inventories and trait data.
+
+This collaborative effort aims to gather:
+
+- Species lists from multiple regions  
+- Functional traits linked to ecosystem services  
+- Metadata on sampling protocols and management practices  
+
+The database is under construction and will be made publicly available as soon as sufficient data have been aggregated.
+
+Meanwhile, updates and progress reports will be posted regularly on this site.
+
+For data contributions or inquiries, please contact the ATLAS project team.
