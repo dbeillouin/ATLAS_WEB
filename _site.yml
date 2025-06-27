@@ -6,29 +6,27 @@ base_url: "/ATLAS_WEB/"
 repository_url: "https://github.com/dbeillouin/ATLAS_WEB"
 creative_commons: CC BY
 favicon: img/ATLAS.jpg
-output_dir: "_site"  # propre si tu utilises gh-pages ou docs/
+output_dir: "_site"
+
 navbar:
   logo:
     image: img/ATLAS.jpg
     href: https://dbeillouin.github.io/ATLAS_WEB
   source_url: true
-  left:
+  right:
     - text: "Home"
       href: index.html
-    - text: "Project Overview"
+    - text: "Overview"
       href: overview.html
-    - text: "Project Protocol"
+    - text: "Protocol"
       href: protocol.html
-    - text: "ATLAS Database"
+    - text: "Database"
       href: atlas_database.html
     - text: "Resources"
       href: resources.html
     - text: "Contact"
       href: contact.html
-    - text: "TRY Trait Database"
-      href: https://www.try-db.org
-    - text: "R Setup & Scripts"
-      href: https://github.com/atlas-project/atlas-rsetup
+
 output:
   distill::distill_article:
     css: css/theme.css
