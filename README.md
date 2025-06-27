@@ -1,9 +1,9 @@
-## Workshop website
+## ATLAS Project website
 
-![](https://raw.githubusercontent.com/literaturesynthesis/.github/main/profile/banner-literaturesynthesis_150dpi.png)
+![](img/ATLAS.jpg)
 
-Website of the workshop **_Literature Synthesis: Meta-analyses and Systematic reviews_**
-organized by the [FRB-CESAB](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/).
+Website of the project ***ATLAS - Unlocking Functional Diversity in Homegardens***\
+coordinated by Damien Beillouin and collaborators.
 
-This website is built with the R package [`distill`](https://rstudio.github.io/distill/)
-and is available at: **https://literaturesynthesis.github.io**
+This website is built with the R package [`distill`](https://rstudio.github.io/distill/)\
+and is available at: [**https://dbeillouin.github.io/ATLAS_WEB/**](https://dbeillouin.github.io/ATLAS_WEB/){.uri}
