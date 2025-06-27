@@ -2223,56 +2223,83 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
-<li><a href="#methods" id="toc-methods">Methods</a>
+<li><a href="#methods-and-collaborative-data-acquisition-strategy" id="toc-methods-and-collaborative-data-acquisition-strategy">Methods and Collaborative Data Acquisition Strategy</a>
 <ul>
-<li><a href="#literature-search-and-eligibility-criteria" id="toc-literature-search-and-eligibility-criteria">Literature search and eligibility criteria</a></li>
-<li><a href="#screening-and-inclusion-process" id="toc-screening-and-inclusion-process">Screening and inclusion process</a></li>
-<li><a href="#data-extraction-and-standardization" id="toc-data-extraction-and-standardization">Data extraction and standardization</a></li>
-<li><a href="#statistical-analyses-and-visualization" id="toc-statistical-analyses-and-visualization">Statistical analyses and visualization</a></li>
+<li><a href="#a-collaborative-data-framework" id="toc-a-collaborative-data-framework">A Collaborative Data Framework</a></li>
+<li><a href="#literature-search-and-eligibility-criteria" id="toc-literature-search-and-eligibility-criteria">Literature Search and Eligibility Criteria</a></li>
+<li><a href="#screening-and-selection-process" id="toc-screening-and-selection-process">Screening and Selection Process</a></li>
+<li><a href="#data-extraction-harmonization-and-integration" id="toc-data-extraction-harmonization-and-integration">Data Extraction, Harmonization, and Integration</a></li>
+<li><a href="#call-for-collaboration-and-data-contributions" id="toc-call-for-collaboration-and-data-contributions">Call for Collaboration and Data Contributions</a></li>
 </ul></li>
 </ul>
 </nav>
 </div>
-<h1 id="introduction">Introduction</h1>
-<p>Homegardens are traditional agroecosystems widely distributed across tropical and subtropical regions. Characterized by their structural complexity and high species diversity, these multifunctional systems integrate food crops, fruit trees, medicinal plants, and livestock within household compounds. They provide vital ecosystem services including food security, nutrition, biodiversity conservation, and microclimate regulation.</p>
-<p>Despite their importance, systematic quantitative analyses of species composition and functional diversity in homegardens remain limited. The ATLAS project aims to fill this gap by synthesizing data from diverse geographic regions to understand the ecological functioning and resilience of these agroecosystems.</p>
-<h1 id="methods">Methods</h1>
-<h2 id="literature-search-and-eligibility-criteria">Literature search and eligibility criteria</h2>
-<p>A systematic literature review was conducted following recognized protocols in evidence synthesis. The search was performed on June 2, 2025, in the Web of Science Core Collection using the following query:</p>
+<h1 id="methods-and-collaborative-data-acquisition-strategy">Methods and Collaborative Data Acquisition Strategy</h1>
+<p>The ATLAS project aims to build an extensive, harmonized database of plant species occurrences and functional traits within tropical homegardens worldwide. Given the complexity and diversity of these agroecosystems, assembling such a dataset requires a <strong>broad collaborative effort</strong> that goes beyond traditional literature reviews.</p>
+<h3 id="a-collaborative-data-framework">A Collaborative Data Framework</h3>
+<p>Homegarden data are scattered across multiple sources: published papers, grey literature, unpublished datasets, and ongoing research projects. Many relevant species inventories and trait datasets remain inaccessible without direct collaboration. Recognizing this, ATLAS adopts a <strong>multi-pronged data acquisition strategy</strong> focused on active engagement with the scientific community, research institutions, and practitioners globally.</p>
+<p>This strategy includes:</p>
+<ul>
+<li><strong>Systematic literature synthesis</strong>, to identify and extract data from all available published sources;</li>
+<li><strong>Proactive outreach to original authors and data holders</strong>, to access unpublished or supplementary data critical for robust analyses;</li>
+<li><strong>Partnerships with ongoing projects and networks</strong>, to share data, standardize protocols, and foster co-development of analytical tools;</li>
+<li><strong>Open invitation for new data contributions</strong>, recognizing that many researchers hold valuable datasets not yet shared publicly.</li>
+</ul>
+<p>By combining these approaches, ATLAS strives to create a comprehensive, high-quality dataset that reflects the rich ecological and cultural variation of tropical homegardens worldwide.</p>
+<hr />
+<h2 id="literature-search-and-eligibility-criteria">Literature Search and Eligibility Criteria</h2>
+<p>As part of our data acquisition, we performed a systematic literature search on <strong>June 2, 2025</strong>, in the <strong>Web of Science Core Collection</strong>, using the following query:</p>
 <p>```
 (“home garden” OR homegarden OR homestead* OR “household garden*“) AND (species OR”species richness” OR “plant diversity” OR biodiversity OR “floristic composition”)
 ```</p>
-<p>This search retrieved 2,437 records. Additional relevant studies were identified through manual screening of reference lists.</p>
-<p>Studies were included if they:</p>
+<p>This search yielded <strong>2,437 records</strong>, supplemented by manual screening of references and citations to uncover additional relevant studies.</p>
+<p>We included studies that:</p>
+<div style="background:#f9f9f9; padding:1em; border-left:4px solid #007acc; margin-bottom:1em;">
 <ul>
-<li>Explicitly focused on homegardens as study systems;<br />
+<li>
+Explicitly focused on <strong>homegardens</strong> as ecological systems;
 </li>
-<li>Reported data from multiple homegardens (excluding single-case studies);<br />
+<li>
+Provided data from <strong>multiple homegardens</strong>, excluding single-case reports;
 </li>
-<li>Recorded plant species through field sampling or botanical inventories.</li>
+<li>
+Documented plant species via <strong>field sampling or botanical inventories</strong>.
+</li>
 </ul>
-<p>Conceptual papers, reviews, and studies without direct species observations were excluded.</p>
-<h2 id="screening-and-inclusion-process">Screening and inclusion process</h2>
-<p>Title and abstract screening was performed using the semi-automated platform Abstrackr, which applies active learning to prioritize relevant studies. Screening stopped upon reaching saturation, defined as 100 consecutive abstracts without further inclusion, after screening 1,540 abstracts. The final corpus comprised 300 studies.</p>
-<h2 id="data-extraction-and-standardization">Data extraction and standardization</h2>
-<p>For each included study, the following data were extracted manually:</p>
-<ul>
-<li>Study title, country, region (if available), publication year;<br />
-</li>
-<li>Number of plant species recorded;<br />
-</li>
-<li>Number of homegardens sampled;<br />
-</li>
-<li>Diversity indices and explanatory variables when available.</li>
-</ul>
-<p>Geographic names were standardized using the `countrycode` R package.</p>
-<p>Species richness was defined as the total number of species observed across sampled homegardens. Explanatory variables were coded where studies linked diversity to land use, management, or environmental gradients.</p>
-<h2 id="statistical-analyses-and-visualization">Statistical analyses and visualization</h2>
-<p>All analyses were conducted in R (version 4.4.0). Geographic distributions were mapped with `rnaturalearth` and `sf`, including choropleth maps displaying study counts and average species richness per country. Species richness classes were grouped into quartiles for interpretability.</p>
-<p>Temporal trends in publication and taxonomic focus were summarized descriptively. Visualizations were created using `ggplot2`. All scripts and data are available in the project repository.</p>
+</div>
+<p>We excluded reviews, conceptual articles without original data, and studies lacking direct species observations.</p>
 <hr />
-<p><em>For more information or questions about the protocol, please contact the ATLAS project team.</em></p>
+<h2 id="screening-and-selection-process">Screening and Selection Process</h2>
+<p>Using the semi-automated platform <strong>Abstrackr</strong>, which leverages active learning to efficiently prioritize relevant abstracts, we screened <strong>1,540 abstracts</strong>. Screening was halted upon saturation—defined as 100 consecutive abstracts without further inclusion—yielding a final corpus of <strong>300 studies</strong>.</p>
+<hr />
+<h2 id="data-extraction-harmonization-and-integration">Data Extraction, Harmonization, and Integration</h2>
+<p>From these studies, we manually extracted detailed metadata (e.g., study title, country, region, year), biological data (species counts, number of homegardens sampled), and ecological metrics (diversity indices, explanatory variables such as land use or management factors).</p>
+<p>To ensure consistency, we standardized geographic names with the R package <a href="https://cran.r-project.org/package=countrycode"><code>countrycode</code></a> and applied uniform definitions for species richness and explanatory variables.</p>
+<p>Importantly, because species-level data are often incomplete or embedded in supplementary materials, we prioritized contacting study authors to obtain raw or detailed datasets whenever possible. This direct collaboration ensures higher-quality data and fills critical gaps.</p>
+<hr />
+<h2 id="call-for-collaboration-and-data-contributions">Call for Collaboration and Data Contributions</h2>
+<p>While literature and author outreach form a strong foundation, the full potential of ATLAS depends on <strong>active contributions from the global community</strong>.</p>
+<p>If you are a researcher, practitioner, or institution holding data on plant species occurrences or functional traits in tropical homegardens, we encourage you to join ATLAS by sharing your datasets. Contributions of any size or format are valuable and help:</p>
+<div style="background:#f9f9f9; padding:1em; border-left:4px solid #007acc; margin-bottom:1em;">
+<ul>
+<li>
+Enhance the representativeness and completeness of the global dataset;
+</li>
+<li>
+Support robust, trait-based ecological analyses at multiple scales;
+</li>
+<li>
+Accelerate knowledge exchange and foster interdisciplinary collaborations;
+</li>
+<li>
+Inform sustainable agroecological management and policy-making.
+</li>
+</ul>
+</div>
+<p>Data sharing within ATLAS respects contributors’ rights and includes proper attribution. We are committed to building a <strong>transparent, collaborative, and mutually beneficial network</strong>.</p>
+<p>For details on how to contribute or collaborate, please visit our <strong>Contact</strong> page.</p>
+<hr />
+<p><em>For any questions regarding this protocol or collaboration opportunities, please contact the ATLAS project team.</em></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

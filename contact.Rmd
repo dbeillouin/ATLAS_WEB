@@ -9,13 +9,11 @@ output:
 
 For any questions, data contributions, or collaboration proposals related to the ATLAS project, please reach out to us:
 
-- **Project Coordinator:** Damien Beillouin  
+- **Project Coordinator and General Inquiries:** Damien Beillouin  
   Email: damien.beillouin@cirad.fr  
-
-- **General Inquiries:** atlas-project@cirad.fr  
 
 - **GitHub Repository:** [https://github.com/atlas-project](https://github.com/atlas-project)  
 
-- **Website:** [https://atlas-project.github.io](https://atlas-project.github.io)  
+- **Website:** [https://github.com/dbeillouin/ATLAS_WEB](https://github.com/dbeillouin/ATLAS_WEB)  
 
 We welcome partnerships with researchers, institutions, and practitioners interested in tropical homegardens and agroecosystem services.

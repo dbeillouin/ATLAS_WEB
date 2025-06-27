@@ -10,42 +10,41 @@ theme: theme.css  # si tu veux un thème personnalisé
 Website of the research initiative ***ATLAS – Unlocking the Functional Diversity of Homegardens***,\
 led by **CIRAD** in collaboration with international partners including the University of Toronto, CEFE-CNRS, CGIAR, and others.
 
+![](img/logo.png)
+
 ------------------------------------------------------------------------
 
-**ATLAS** (Analysis of Traits in Homegardens and Links to Agroecosystem Services) explores the role of plant functional diversity in tropical homegardens and its contribution to resilient and sustainable food systems.
+**ATLAS** – *Analysis of Traits in Homegardens and Links to Agroecosystem Services* – is an international research initiative that explores how plant functional diversity in tropical homegardens supports resilient and sustainable food systems.
 
-These homegardens — complex, multifunctional agroecosystems combining crops, trees, and livestock — are widespread across the tropics. They provide food, income, and essential ecosystem services to millions of rural households. Despite their importance, the **functional roles of plants in these systems remain poorly understood**.
+Homegardens are widespread across the tropics and combine crops, trees, and sometimes livestock in tightly managed spaces. They provide essential food, income, and ecosystem services to millions of rural households. Yet, the ecological roles of plant species within these systems remain poorly understood.
 
-## Scientific Focus
+ATLAS addresses this gap by investigating how **plant functional traits** — such as leaf structure, nutrient content, or growth form — influence key ecosystem services, including carbon sequestration, water regulation, nutrient provisioning, and system resilience. By combining approaches from **functional ecology**, **trait-based analysis**, and **data science**, the project aims to generate actionable insights into the ecological functioning of homegardens.
 
-ATLAS investigates how the **functional traits** of plant species — such as leaf structure, nutrient content, or growth form — influence key ecosystem functions, including:
+The core activities of ATLAS include:
 
--   Carbon sequestration\
--   Water regulation\
--   Nutritional value\
--   Agroecosystem resilience
+- Building an open-access, global **database** of plant traits specific to tropical homegardens  
+- Comparing the **functional composition** of homegardens with other agroecosystems and forest systems  
+- Linking plant traits to **quantifiable ecosystem services**  
+- Supporting **evidence-based agroecological transitions**, with implications for biodiversity conservation and climate policy
 
-By applying tools from **functional ecology**, **trait-based analysis**, and **data science**, the project aims to generate new insights into the ecological functioning of homegardens.
 
-## Objectives
+### Project Team
 
-ATLAS aims to:
+### Project Team
 
--   Build a global, open-access **database** of species and plant traits in tropical homegardens\
--   Compare functional composition across homegardens, agricultural systems, and forest contexts\
--   Link plant traits to measurable **ecosystem services**\
--   Support **evidence-based agroecological transitions** and inform biodiversity and climate policies
+| Name                  | Affiliation                        | ORCID                                      |
+|-----------------------|----------------------------------|---------------------------------------------|
+| Marney Isaac          | University of Toronto             | <a href="https://orcid.org/0000-0002-5975-833X" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
+| Cyrille Violle        | CNRS - CEFE, Montpellier          | <a href="https://orcid.org/0000-0002-2471-9226" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
+| Delphine Renard       | CNRS - CEFE, Montpellier          | <a href="https://orcid.org/0000-0002-3228-4269" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
+| Paul Fauchon          | CIRAD - HortSys (PhD Student)     | <a href="https://orcid.org/0000-0002-XXXX-XXXX" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
+| Bruno Rapidel         | CIRAD - ABSys                     | <a href="https://orcid.org/0000-0003-0288-5650" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
+| Sarah Jones           | CGIAR - Bioversity International | <a href="https://orcid.org/0000-0002-9789-5087" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
+| Collins Khoury        | San Diego Botanic Garden          | <a href="https://orcid.org/0000-0001-7893-5744" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
+| Natalia Estrada Carmona | Alliance Bioversity              | <a href="https://orcid.org/0000-0002-XXXX-XXXX" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
+| Damien Beillouin      | CIRAD - HortSys                  | <a href="https://orcid.org/0000-0002-2708-6054" target="_blank" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_24x24.png" alt="ORCID" style="vertical-align:middle"></a> |
 
-## Project Team
 
-The ATLAS project involves researchers from:
-
--   **CIRAD** (France)\
--   **University of Toronto** (Canada)\
--   **CEFE - CNRS** (France)\
--   **CGIAR / Bioversity International**\
--   **San Diego Botanic Garden**\
--   ...and other global partners
 
 ------------------------------------------------------------------------
 

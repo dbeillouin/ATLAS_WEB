@@ -7,25 +7,53 @@ output:
 
 # ATLAS Project Overview
 
-Welcome to the **ATLAS** project website.
+<img src="img/banner.png" alt="ATLAS Banner" style="width:100%; max-height:200px; object-fit:cover; margin-bottom:1em;" />
 
-ATLAS (Analysis of Traits in Homegardens and Links to Agroecosystem Services) is a scientific initiative focused on understanding the functional diversity of tropical homegardens and their contribution to sustainable and resilient food systems.
+The ATLAS project advances the understanding of tropical homegardens by applying cutting-edge quantitative methods to unravel the complexity of their functional biodiversity and ecosystem services.
 
-## What are Homegardens?
+While homegardens are recognized for their multifunctionality and socio-ecological importance, their biological and management complexity has historically limited detailed ecological characterization. ATLAS addresses this challenge by integrating trait-based ecology with advanced statistical modeling to dissect the relationships between plant functional diversity and key ecosystem processes.
 
-Homegardens are diverse, multifunctional agroecosystems found throughout the tropics. They combine food crops, fruit trees, medicinal plants, and livestock within compact spaces, providing food security, income, and ecosystem services to millions of households.
+Our approach leverages recent developments in functional ecology, including trait hypervolumes, multivariate trait analyses, and trait-environment regressions, to capture the multidimensional diversity of species traits at the system level. This enables us to link functional diversity metrics directly to ecosystem services such as carbon storage, water regulation, and nutritional provisioning.
 
-## Project Objectives
+---
 
-- Build a global database of plant species traits in homegardens  
-- Analyze functional trait links to ecosystem services such as carbon sequestration and water regulation  
-- Conduct meta-analyses and systematic reviews to synthesize current knowledge  
-- Develop tools and guidelines to support agroecological management and policy  
+## Key Scientific Advancements
 
-## Get Involved
+<div style="background:#f9f9f9; padding:1em; border-left:4px solid #007acc; margin-bottom:1em;">
+<ul>
+<li>Creation and curation of a <strong>harmonized, high-resolution global database</strong> of plant functional traits specific to homegardens, encompassing diverse geographic and cultural contexts.</li>
+<li>Development of <strong>robust workflows and reproducible analytical pipelines</strong> to quantify trait diversity and its functional implications across scales.</li>
+<li>Systematic <strong>meta-analyses</strong> synthesizing global evidence on trait-service relationships to inform agroecological management and policy.</li>
+<li>Exploration of the influence of <strong>agricultural practices</strong> on trait composition and ecosystem service outcomes within homegardens.</li>
+</ul>
+</div>
 
-Explore our resources, protocols, and data tools through the website menus.  
-For inquiries, please visit the **Contact** page.
+This research aligns closely with international sustainability agendas, contributing novel empirical insights to support resilient, biodiversity-friendly agroecosystems. It responds to the urgent need for scalable, mechanistic understanding of how plant trait diversity underpins ecosystem function in managed tropical landscapes.
+
+By bridging ecology, agronomy, and data science, ATLAS fosters evidence-based strategies that enhance ecosystem service delivery while promoting sustainable livelihoods and climate resilience.
+
+---
+
+## A Global Collaborative Initiative
+
+<img src="img/collab.png" alt="Collaboration icon" style="width:80px; float:right; margin-left:1em; margin-bottom:1em;" />
+
+ATLAS is a collaborative effort that depends on contributions from researchers, practitioners, and communities worldwide. The project's strength lies in its ability to integrate diverse datasets from tropical regions, reflecting the rich variability of homegarden systems across different ecological and cultural contexts.
+
+We actively seek partners who can share data, expertise, and field knowledge to expand and enrich our global database of homegarden species and functional traits. By pooling resources and harmonizing data collection protocols, ATLAS aims to build an unparalleled, open-access resource that accelerates research and supports practical agroecological solutions.
+
+<div style="background:#eef6fc; padding:1em; border-left:4px solid #005fa3; margin-bottom:1em;">
+<ul>
+<li>Participate in cutting-edge ecological research with direct applications for sustainable agriculture.</li>
+<li>Access and contribute to an integrated platform for data sharing, analysis, and visualization.</li>
+<li>Influence regional and global policies by providing robust scientific evidence on agroecosystem functioning.</li>
+<li>Foster interdisciplinary partnerships spanning ecology, agronomy, social sciences, and data science.</li>
+</ul>
+</div>
+
+Together, we can deepen understanding of how functional diversity shapes ecosystem services, enabling the design of resilient, productive, and biodiversity-friendly agricultural landscapes.
+
+For researchers and institutions interested in joining ATLAS or contributing data, please visit our **Contact** page for more information.
 
 ---
 

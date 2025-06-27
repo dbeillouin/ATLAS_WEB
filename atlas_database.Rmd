@@ -5,18 +5,44 @@ output:
     toc: true
 ---
 
-# ATLAS Database
+# ATLAS Database: Building a Collaborative Resource
 
-We are currently compiling a large open database by requesting authors of tropical homegarden field studies to share their species inventories and trait data.
+The ATLAS database is currently under active development through a collaborative network of researchers sharing data from tropical homegardens worldwide.
 
-This collaborative effort aims to gather:
+Our core objective is to compile standardized **species inventories** from multiple homegardens across diverse regions. At minimum, we seek for each homegarden:
 
-- Species lists from multiple regions  
-- Functional traits linked to ecosystem services  
-- Metadata on sampling protocols and management practices  
+<div style="background:#f9f9f9; padding:1em; border-left:4px solid #007acc; margin-bottom:1em;">
+<ul>
+<li>A comprehensive <strong>list of plant species</strong> observed;</li>
+<li><strong>Geographic coordinates (GPS)</strong> of the homegarden location;</li>
+<li><strong>Size or area</strong> of the homegarden;</li>
+</ul>
+</div>
 
-The database is under construction and will be made publicly available as soon as sufficient data have been aggregated.
+Additional information—such as detailed **functional trait data**, **sampling protocols**, and **management practices**—is highly valuable and greatly enhances the analytical power of the database.
 
-Meanwhile, updates and progress reports will be posted regularly on this site.
+---
 
-For data contributions or inquiries, please contact the ATLAS project team.
+## Integration with Complementary Data Sources
+
+To better understand the ecological and environmental context, we will link the homegarden data with relevant external datasets, including:
+
+- **Soil characteristics** and classifications  
+- **Climate variables** from global repositories  
+- **Existing plant trait databases**  
+
+This integrative approach will allow us to investigate how local conditions and plant traits jointly influence ecosystem services.
+
+---
+
+## Data Sharing and Access
+
+The database will be openly accessible as soon as a critical mass of harmonized data is assembled. Meanwhile, we will provide regular updates and summaries of progress on this website.
+
+We warmly invite researchers and institutions holding relevant data to contribute to this collective effort. Your collaboration is essential to build a robust, representative, and actionable dataset to support sustainable agroecological transitions.
+
+For inquiries or to share your data, please visit our **Contact** page.
+
+---
+
+*Together, we can unlock the potential of tropical homegardens by building an unparalleled resource for science and practice.*
