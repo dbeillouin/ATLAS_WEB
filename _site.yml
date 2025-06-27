@@ -2,7 +2,7 @@ name: "atlas"
 title: "ATLAS - Unlocking Functional Diversity in Homegardens"
 description: |
   Unlocking the Functional Diversity of Homegardens through meta-analyses and systematic reviews.
-base_url: https://atlas-project.github.io
+base_url: https://dbeillouin.github.io/ATLAS_WEB
 repository_url: https://github.com/atlas-project/atlas-project.github.io
 creative_commons: CC BY
 favicon: img/ATLAS.
