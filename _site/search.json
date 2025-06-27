@@ -1,0 +1,54 @@
+{
+  "articles": [
+    {
+      "path": "index.html",
+      "title": "ATLAS - Unlocking Functional Diversity in Homegardens",
+      "description": "Unlocking the Functional Diversity of Homegardens through meta-analyses and systematic reviews.",
+      "author": [
+        {
+          "name": "Damien Beillouin",
+          "url": "https://www.researchgate.net/profile/Damien-Beillouin"
+        }
+      ],
+      "date": "2025-06-27",
+      "contents": "ATLAS project aims to synthesize data on species functional diversity in tropical homegardens to support sustainable agroecosystems. We collect and harmonize metadata from field inventories across regions, enabling meta-analyses and systematic reviews.",
+      "last_modified": "2025-06-27T16:00:00+00:00"
+    },
+    {
+      "path": "overview.html",
+      "title": "Project Overview",
+      "author": [],
+      "contents": "This page presents the general objectives, scope, and significance of the ATLAS project on functional diversity in homegardens.",
+      "last_modified": "2025-06-27T16:00:00+00:00"
+    },
+    {
+      "path": "protocol.html",
+      "title": "Project Protocol",
+      "author": [],
+      "contents": "The protocol page details the systematic review methodology, inclusion criteria, and data extraction protocols applied in the ATLAS project.",
+      "last_modified": "2025-06-27T16:00:00+00:00"
+    },
+    {
+      "path": "atlas_database.html",
+      "title": "ATLAS Database",
+      "author": [],
+      "contents": "Access and explore the aggregated homegarden species inventory database collected from multiple contributors worldwide.",
+      "last_modified": "2025-06-27T16:00:00+00:00"
+    },
+    {
+      "path": "resources.html",
+      "title": "Resources",
+      "author": [],
+      "contents": "A curated list of references, software tools, and guidelines for systematic reviews and meta-analyses relevant to agroecology and biodiversity.",
+      "last_modified": "2025-06-27T16:00:00+00:00"
+    },
+    {
+      "path": "contact.html",
+      "title": "Contact",
+      "author": [],
+      "contents": "Contact details for the ATLAS project team and information on collaboration and data sharing.",
+      "last_modified": "2025-06-27T16:00:00+00:00"
+    }
+  ],
+  "collections": []
+}
